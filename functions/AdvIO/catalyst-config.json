@@ -1,0 +1,10 @@
+{
+	"deployment": {
+		"name": "AdvIO",
+		"stack": "java8",
+		"type": "advancedio"
+	},
+	"execution": {
+		"main": "AdvIO"
+	}
+}

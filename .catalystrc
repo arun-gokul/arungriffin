@@ -1,0 +1,35 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": 1611000000073001,
+      "name": "GithubTesting",
+      "domain": {
+        "id": 10021110191,
+        "name": "githubtesting-716782380.development"
+      },
+      "env": [
+        {
+          "idx": 1,
+          "id": "716782380",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ],
+  "migration": {
+    "1.0.2": {
+      "completed": true
+    },
+    "last_success": "1.0.2"
+  }
+}

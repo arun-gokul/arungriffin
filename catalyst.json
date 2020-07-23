@@ -1,0 +1,19 @@
+{
+  "functions": {
+    "targets": [
+      "basicio",
+      "AdvIO",
+      "event",
+      "cron"
+    ],
+    "ignore": [
+      ".output",
+      ".project",
+      ".classpath"
+    ],
+    "source": "functions"
+  },
+  "client": {
+    "source": "client"
+  }
+}

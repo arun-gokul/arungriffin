@@ -1,0 +1,10 @@
+{
+	"deployment": {
+		"name": "cron",
+		"stack": "java8",
+		"type": "cron"
+	},
+	"execution": {
+		"main": "Cron"
+	}
+}
