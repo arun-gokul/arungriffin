@@ -13,7 +13,7 @@ public class AdvIO implements CatalystAdvancedIOHandler {
     public void runner(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		try {
 			String name = (String) request.getParameter("name");
-			LOGGER.log(Level.INFO, "Hello "+name);
+			LOGGER.log(Level.INFO, "Hello to the "+name);
 			response.setStatus(200);
 		}
 		catch(Exception e) {
