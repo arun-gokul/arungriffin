@@ -2,5 +2,5 @@
     "name": "GithubApp",
     "version": "0.0.1",
     "homepage": "index.html",
-    "login_redirect":"login.html"
+    "login_redirect":"arun.html"
 }
