@@ -14,7 +14,7 @@ public class AdvIO implements CatalystAdvancedIOHandler {
 		try {
 			String name = (String) request.getParameter("name");
 			LOGGER.log(Level.INFO, "Hello to the "+name);
-			response.setStatus(200);
+			response.setStatus(201);
 			response.setStatus(400);
 		}
 		catch(Exception e) {
