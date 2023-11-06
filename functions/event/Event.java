@@ -15,6 +15,7 @@ import com.zc.component.cache.ZCCache;
 public class Event implements CatalystEventHandler{
 	
 	private static final Logger LOGGER = Logger.getLogger(Event.class.getName());
+	
 
 	@Override
 	public EVENT_STATUS handleEvent(EventRequest paramEventRequest, Context paramContext) throws Exception {
