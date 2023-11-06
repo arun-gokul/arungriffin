@@ -13,6 +13,7 @@ import com.zc.component.cache.ZCCache;
 public class Cron implements CatalystCronHandler {
 
 	private static final Logger LOGGER = Logger.getLogger(Cron.class.getName());
+	
 
 	@Override
 	public CRON_STATUS handleCronExecute(CronRequest request, Context arg1) throws Exception {
